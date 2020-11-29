@@ -15,7 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     author="YodaPY",
     url="https://github.com/YodaPY/Chatbot",
-    packages=find_namespace_packages(include=["Chatbot" + "*"]),
+    packages=find_namespace_packages(include=["chatbot" + "*"]),
     install_requires=requirements(),
     include_package_data=True,
     python_requires=">=3.7.0,<3.10",

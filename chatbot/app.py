@@ -1,4 +1,4 @@
-from src import chatbot
+from chatbot import chatbot
 from tkinter import (
     Tk,
     Frame,

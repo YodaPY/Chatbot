@@ -1,4 +1,4 @@
-import chatbot
+from src import chatbot
 from tkinter import (
     Tk,
     Frame,
@@ -158,5 +158,3 @@ def run() -> None:
     window.layout()
 
     root.mainloop()
-
-run()
